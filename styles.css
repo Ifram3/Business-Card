@@ -15,10 +15,6 @@ body {
     width: 150px;
 }
 
-.card:hover {
-    box-shadow: 2px 2px 6px 0 #2D3142;
-}
-
 .card {
     width: 400px;
     margin: 0 auto;
@@ -30,6 +26,7 @@ body {
     color: #B6B190;
     border-bottom: 6px solid #AEA984;
     box-shadow: 2px 2px 6px 0 #2D3142;
+    transition: box-shadow 2s;
     
     /* animation-name: Business;
     animation-duration: 10s;
@@ -66,7 +63,6 @@ body {
 
 .card:hover {
     box-shadow: none;
-    transition: box-shadow 2s;
 }
 
 .border-blue {
